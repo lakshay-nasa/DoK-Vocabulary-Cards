@@ -1,9 +1,9 @@
-# Why DoK Cards?
-## We know Kubernete's vocabulary can be hard to understand.
+# DoK Cards
+
+   <h3 align="center"> "Every fresh start to the week is another opportunity to learn new things" </h3>
 
 <br>
 
-### The Transcript Team at <b>DATA ON KUBERNETES COMMUNITY </b> brings you DoK Cards. Making it easier for you to learn these key terms with definitions and examples.
-
+#### We know Kubernete's vocabulary can be hard to understand. The Transcript Team at <b>DATA ON KUBERNETES COMMUNITY </b> brings you DoK Cards every week. Making it easier to learn new thingswith definitions and examples.
 <br>
 
