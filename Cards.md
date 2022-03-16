@@ -41,5 +41,13 @@ An example of a stateless would be searching online to answer a question. You ty
 
 # Operators
 
+### Why do we need Operators in Kubernetes?
+
+Operators are used mainly for Stateful Applications. Kubernetes can manage the complete lifecycle of Stateless Apps as there is no logic required for running and maintaining them. So, K8's can automatically create, update, delete and maintain these applications. Whereas for Stateful Apps, Kubernetes internally doesn't have the knowledge to automate the process of deploying every single stateful application. Hence, it uses extensions named operators.
+
+We know it can be complex to write your first operator. But we got you covered Julian Fischer in his talk at DoK day North America 2021 @KUBECON, talks about - Principles for building Operators.
+
+Link to the session - https://www.youtube.com/watch?v=idHGkaK0OTg
+
 Know More Here - [Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
 <img src="Images\Operators.png">
