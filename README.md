@@ -7,6 +7,7 @@
 #### We know Kubernetes vocabulary can be hard to understand. The Transcript Team at <b>DATA ON KUBERNETES COMMUNITY </b> brings you DoK Cards every week. Making it easier to learn new thingswith definitions and examples.
 <br>
 
+Check Out DoK Cards <a href="https://github.com/lakshay-nasa/DoK-Vocabulary-Cards/blob/main/Cards.md">HERE</a> .
 
 ## Follow us- 
 
