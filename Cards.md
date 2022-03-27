@@ -51,3 +51,17 @@ Link to the session - https://www.youtube.com/watch?v=idHGkaK0OTg
 
 Know More Here - [Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
 <img src="Images\Operators.png">
+
+# Namespaces
+
+### Why do we use Namespace in Kubernetes?
+
+Namespace provides an additional qualification to a resource name. It is helpful when multiple teams use the same cluster and there is a possibility of name collision. It can act as a virtual wall between multiple clusters.
+
+Features of Namespace -
+   * Namespaces help pod-to-pod communication using the same namespace.
+   * Namespaces are virtual clusters that can sit on top of the same physical cluster.
+   * They provide logical separation between the teams and their environments.
+  
+Know More - https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
+<img src="Images\Namespaces.png">
