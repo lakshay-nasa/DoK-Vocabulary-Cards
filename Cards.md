@@ -65,3 +65,14 @@ Features of Namespace -
   
 Know More - https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
 <img src="Images\Namespaces.png">
+
+# Kubernetes Volume
+
+### What problem does Kubernetes volume solve?
+On-disk files in a container are transient, which raises some problems for non-trivial applications when running in containers.
+1. The loss of files when a container crashes. The kubelet restarts the container but with a clean state.
+2. The second problem occurs when sharing files between containers running together in a Pod.
+The Kubernetes volume abstraction solves both of these problems. :sparkles:
+
+Kubernetes supports several types of volumes. Know about them here - https://kubernetes.io/docs/concepts/storage/volumes/
+<img src="Images\Volume.png">
