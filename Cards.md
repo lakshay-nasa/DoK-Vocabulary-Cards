@@ -76,3 +76,14 @@ The Kubernetes volume abstraction solves both of these problems. :sparkles:
 
 Kubernetes supports several types of volumes. Know about them here - https://kubernetes.io/docs/concepts/storage/volumes/
 <img src="Images\Volume.png">
+
+# Persistent Volumes
+
+### Why do we need PVs?
+The most common use case for Persistent volumes in Kubernetes is for databases. Containers are immutable, meaning that when a container shuts down, all data created during its lifetime is lost. This works for some applications, but most applications need to preserve the state.
+To ensure that data persists well beyond a container’s lifecycle, the best practice is to separate data storage from containers.
+
+✨Vanshika Srivastava, in her talk at DoK Student Day 2021, explains persistence in Kubernetes - https://www.youtube.com/watch?v=C8VxdczAS_I
+
+Know more about PVs here - https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+<img src="Images\Persistent-Volumes.png">
