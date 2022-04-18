@@ -87,3 +87,17 @@ To ensure that data persists well beyond a container’s lifecycle, the best pra
 
 Know more about PVs here - https://kubernetes.io/docs/concepts/storage/persistent-volumes/
 <img src="Images\Persistent-Volumes.png">
+
+# Storage Classes
+
+### What's so interesting about Storage Classes? 🚀
+
+Storage classes are created as part of the bootstrapping of the Kubernetes cluster by the administrator. The major goal of storage classes is to eliminate the need for cluster administrators to pre-provision storage and allow them to be created on-demand. Users can then request storage by specifying the storage class and the size of the volume needed in their claims.
+
+  * StorageClass allows dynamic provisioning of Persistent Volumes, when PVC claims it.
+  * StorageClass abstracts underlying storage provider.
+  * StorageClass is used in conjunction with PVC that allow Pods to dynamically request a new storage.
+
+Know more - https://kubernetes.io/docs/concepts/storage/storage-classes/
+
+<img src="Images\Storage Classes.png">
