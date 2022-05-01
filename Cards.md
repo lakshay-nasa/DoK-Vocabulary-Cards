@@ -29,7 +29,6 @@ When we speak of stateful apps, state refers to any data the app needs to store 
 An example of a stateful app would be an online shop that remembers your cart is a stateful app.
 <img src="Images\Stateful-App.png">
 
-
 :round_pushpin: <b> Stateless App </b> -
 A stateless app is an application program that does not save client data generated in one session for use in the next session with that client.
 An example of a stateless would be searching online to answer a question. You type your question into a search engine and hit enter. If accidentally your search is interrupted or closed, you have to start a new one.
@@ -101,3 +100,16 @@ Storage classes are created as part of the bootstrapping of the Kubernetes clust
 Know more - https://kubernetes.io/docs/concepts/storage/storage-classes/
 
 <img src="Images\Storage Classes.png">
+
+# ReplicaSet
+
+### Why do we need a Replication in Kubernetes?
+  There are several reasons for this -
+
+  * Reliability: Having multiple versions of an application prevents problems like if one or more fail. It is true if the system replaces any containers that fail.
+  * Load balancing: Having multiple versions of a container enables you to send traffic to different instances to prevent the overloading of a single instance or node. It is something that Kubernetes does out of the box, making it extremely convenient.
+  * Scaling: When a load becomes too much for the number of existing instances, Kubernetes enables you to scale up your application, adding additional instances as needed.
+
+Know more here - https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
+
+<img src="Images\ReplicaSet.png">
