@@ -113,3 +113,12 @@ Know more - https://kubernetes.io/docs/concepts/storage/storage-classes/
 Know more here - https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
 
 <img src="Images\ReplicaSet.png">
+
+# Services
+
+### Why Services in Kubernetes?
+Since pods are ephemeral, a service enables a group of pods, which provide specific functions (web services, image processing, etc.) to be assigned a name and unique IP address (clusterIP). As long as the service is running that IP address, it will not change. Services also define policies for their access. :tanabata_tree:
+
+Know more here - :rocket: https://kubernetes.io/docs/concepts/services-networking/service/
+
+<img src="Images\Service.png">
