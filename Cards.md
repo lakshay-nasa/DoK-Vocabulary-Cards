@@ -122,3 +122,22 @@ Since pods are ephemeral, a service enables a group of pods, which provide speci
 Know more here - :rocket: https://kubernetes.io/docs/concepts/services-networking/service/
 
 <img src="Images\Service.png">
+
+# Container
+
+### What are the benefits of containers?
+Containers are lightweight packages of your application code together with dependencies such as specific versions of programming language runtimes and libraries required to run your software services.
+
+Here are some of the most common reasons developers decide to use containers:
+* Portability
+* Efficiency
+* Agility
+* Faster delivery
+* Improved security
+* Faster app start-up
+* Easier management
+* Flexibility
+
+:sparkles: Know more here - https://glossary.cncf.io/container/ 
+
+<img src="Images\Containers.png">
