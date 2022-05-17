@@ -141,3 +141,15 @@ Here are some of the most common reasons developers decide to use containers:
 :sparkles: Know more here - https://glossary.cncf.io/container/ 
 
 <img src="Images\Containers.png">
+
+# Pod
+
+We can consider a Pod to be a self-contained, isolated "logical host" that contains the systemic needs of the application it serves. A Pod is meant to run a single instance of your application on your cluster. However, it is not recommended to create individual Pods directly. Instead, you generally create a set of identical Pods, called replicas, to run your application.
+
+Pods Lifecycle -
+* Pods are ephemeral. They are not designed to run forever, and when a Pod is terminated it cannot be brought back. In general, Pods do not disappear until they are deleted by a user or by a controller.
+* Pods do not "heal" or repair themselves. For example, if a Pod is scheduled on a node which later fails, the Pod is deleted. Similarly, if a Pod is evicted from a node for any reason, the Pod does not replace itself.
+
+:sparkles: Know more - https://kubernetes.io/docs/concepts/workloads/pods/
+
+<img src="Images\Pod.png">
