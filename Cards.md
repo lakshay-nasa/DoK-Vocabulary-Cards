@@ -153,3 +153,15 @@ Pods Lifecycle -
 :sparkles: Know more - https://kubernetes.io/docs/concepts/workloads/pods/
 
 <img src="Images\Pod.png">
+
+# Node
+There are three main node components -
+* kubelet - An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod.
+* kube-proxy - kube-proxy is a network proxy that runs on each node in your cluster, implementing part of the Kubernetes Service concept.
+* Container runtime - The container runtime is the software that is responsible for running containers.
+  
+      Node components run on every node, maintaining running pods and providing the Kubernetes runtime environment.
+  
+🌠: Know more here - https://kubernetes.io/docs/concepts/architecture/nodes/
+
+<img src="Images\Node.png">
