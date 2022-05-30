@@ -165,3 +165,17 @@ There are three main node components -
 🌠: Know more here - https://kubernetes.io/docs/concepts/architecture/nodes/
 
 <img src="Images\Node.png">
+
+# Deployments
+
+Deployments represent a set of multiple, identical Pods with no unique identities. In this way, Deployments help ensure that one or more instances of an application are available to serve user requests.
+
+Deployments vs StatefulSets
+
+* Deployments are used for stateless applications, StatefulSets for stateful applications
+* The pods in a deployment are interchangeable, whereas the pods in a StatefulSet are not.
+* In StatefulSet pods names are in sequential order on the other hand in deployment pods names are unique.
+
+:sparkles: Know more here - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+
+<img src="Images\Deployments.png">
