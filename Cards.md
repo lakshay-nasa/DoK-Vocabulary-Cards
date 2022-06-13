@@ -192,3 +192,15 @@ DaemonSets are an integral part of the Kubernetes cluster facilitating administr
 :rocket: Know more here - https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
 
 <img src="Images\DaemonSet.png">
+
+# Kubernetes Jobs
+
+Kubernetes features several controllers for managing pods. We have ReplicaSets, DaemonSets, StatefulSets, and Deployments. Each one of those has its own scenario and use case. However, they all share one common property: they ensure that their pods are always running. If a pod fails, the controller restarts it or reschedules it to another node to make sure the application the pod is hosting keeps running.
+
+What if we do want the pod to terminate? There are many scenarios when you don’t want the process to keep running indefinitely.
+
+    Kubernetes Jobs ensure that one or more pods execute their commands and exit successfully. When all the pods have exited without errors, the Job gets completed. When the Job gets deleted, any created pods get deleted as well.
+    
+:sparkles: Know More here - https://kubernetes.io/docs/concepts/workloads/controllers/job/
+
+<img src="Images/Jobs.png">
