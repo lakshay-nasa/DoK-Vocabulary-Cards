@@ -179,3 +179,16 @@ Deployments vs StatefulSets
 :sparkles: Know more here - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
 <img src="Images\Deployments.png">
+
+# DaemonSets
+
+DaemonSets are an integral part of the Kubernetes cluster facilitating administrators to easily configure services (pods) across all or a subset of nodes.
+
+:round_pushpin: DaemonSet use cases -
+* running a cluster storage daemon on every node
+* running a logs collection daemon on every node
+* running a node monitoring daemon on every node
+
+:rocket: Know more here - https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
+
+<img src="Images\DaemonSet.png">
