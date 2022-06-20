@@ -204,3 +204,13 @@ What if we do want the pod to terminate? There are many scenarios when you don�
 :sparkles: Know More here - https://kubernetes.io/docs/concepts/workloads/controllers/job/
 
 <img src="Images/Jobs.png">
+
+# ReplicationController
+
+Have you ever wondered what supervises and manages just the exact number of pods running inside the Kubernetes cluster? Kubernetes can do this in multiple ways, but one common approach is using the ReplicationController. A ReplicationController is responsible for managing the pod lifecycle and ensuring that the specified number of pods required are running.
+
+PS.:memo: Replication Controller is being replaced by Replica Sets, but it’s still in wide use, so it’s worth understanding what it is and how it works. A Replication Controller is a structure that enables you to easily create multiple pods, and then make sure that the number of pods always exists.
+
+:sparkles: Know More Here - https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/
+
+<img src="Images/ReplicationController.png">
