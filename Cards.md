@@ -214,3 +214,13 @@ PS.:memo: Replication Controller is being replaced by Replica Sets, but it’s s
 :sparkles: Know More Here - https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/
 
 <img src="Images/ReplicationController.png">
+
+# ConfigMap
+
+Why would you use ConfigMap in Kubernetes?
+
+Use a ConfigMap to keep your application code separate from your configuration. A ConfigMap stores configuration settings for your code. Store connection strings, public credentials, hostnames, and URLs in your ConfigMap. However, they are not suitable for confidential data storage. ConfigMaps are not encrypted, and all data they contain is visible to anyone who can access the file. You can use Kubernetes secrets to store sensitive information.
+
+:bookmark:Know More Here - https://kubernetes.io/docs/concepts/configuration/configmap/
+
+<img src="Images/ConfigMap.png">
